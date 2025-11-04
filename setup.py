@@ -34,6 +34,7 @@ setup(
         "aiohttp==3.9.3",
         "python-dotenv==1.0.1",
         "mcp-sdk==0.1.0",
+        "rich>=13.0.0",  # Required for FastMCP to log to stderr
     ],
     entry_points={
         "console_scripts": [
